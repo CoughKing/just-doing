@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import  removeTodo  from '../feature/todoSlice'
+import {removeTodo}  from '../feature/todoSlice'
 
 
 function Todos() {
@@ -8,17 +8,17 @@ function Todos() {
     const dispatch = useDispatch()
   return (
     <>
-    <div>Todos</div>
-    <ul className=""> 
+    <div className=" flex justify-center mt-5 md-3 text-3xl font-extrabold ">Your List of Todos :</div>
+    <ul className="list-none"> 
         {todos.map((todo) => (
             <li
-                className=""
+                className="mt-4 flex justify-between items-center bg-gray-300 px-3 py-3 rounded-xl mb-8"
                 key={todo.id}
             >
-                <div className="">{todo.text}</div>
+                <div className="text-gray-900 font-serif">{todo.text}</div>
                 <button
                     onClick ={() => dispatch(removeTodo(todo.id))}
-                    className=""
+                    className="text-black bg-gray-600 hover:bg-red-500 rounded-2xl text-md focus:outline-none py-1 px-4"
                 >
                    <svg
                 xmlns="http://www.w3.org/2000/svg"

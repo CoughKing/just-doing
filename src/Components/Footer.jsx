@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 z-50">
+    <footer className="bg-gray-800 z-50 bottom-0">
         {/*For Icons Display */}
        <div className = "container  pt-9 justify-center items-center w-full mx-auto">
         <div className="mb-9 flex justify-center items-center">
