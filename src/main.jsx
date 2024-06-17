@@ -25,6 +25,7 @@ const router = createBrowserRouter(
         <Todos />
         </>
         }/>
+      <Route path='dnd' element={<DnD />}/>
     </Route>
     
   )

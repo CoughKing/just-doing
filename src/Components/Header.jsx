@@ -15,7 +15,7 @@ function Header() {
                 </Link>
                 <div className="flex items-center lg:order-2">
                     <Link
-                    to="#"
+                    to="dnd"
                     className='text-gray-800 hover:bg-orange-200 px-4 focus:ring-4 focus:ring-red-400 font-medium rounded-lg text-sm lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none'>
                     Drag and Drop 
                     </Link>
@@ -25,7 +25,7 @@ function Header() {
                     Get Started
                     </Link>
                 </div>
-                <div className='hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'
+                <div className=' hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'
                 id="mobile-menu-2">
                     <ul className='flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0'>
                         <li>
