@@ -11,6 +11,7 @@ function Header() {
                 src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?t=st=1718182246~exp=1718185846~hmac=3e2a3accc3b1cf78e34b840c964daf44aead8cab5802616ac375302458fe244f&w=826" 
                 className="mr-3 h-12"
                 alt="logo" />
+                <div className="text-3xl font-extrabold text-yellow-700  hover:text-white hover:bg-green-500 rounded-full p-2" >TODO APP</div>
                 </Link>
                 <div className="flex items-center lg:order-2">
                     <Link
