@@ -15,7 +15,7 @@ function AddTodo() {
   return (
     <form 
         onSubmit={addTodoHandler}
-        className = "bg-white flex justify-center items-center space-x-3 mt-12">
+        className = "bg-green-700 flex justify-center items-center space-x-3 mt-12">
             <input
                 type="text"
                 className="bg-gray-600 rounded-xl px-3 py-2 border border-gray-800 text-white"

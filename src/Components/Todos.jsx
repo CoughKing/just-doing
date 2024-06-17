@@ -12,13 +12,13 @@ function Todos() {
     <ul className="list-none"> 
         {todos.map((todo) => (
             <li
-                className="mt-4 flex justify-between items-center bg-gray-300 px-3 py-3 rounded-xl mb-8"
+                className="mt-4 flex  justify-between items-center bg-gray-700 px-3 py-3 rounded-xl mb-8"
                 key={todo.id}
             >
-                <div className="text-gray-900 font-serif">{todo.text}</div>
+                <div className="text-white font-serif">{todo.text}</div>
                 <button
                     onClick ={() => dispatch(removeTodo(todo.id))}
-                    className="text-black bg-gray-600 hover:bg-red-500 rounded-2xl text-md focus:outline-none py-1 px-4"
+                    className="text-black bg-gray-300 hover:bg-red-500 rounded-2xl text-md focus:outline-none py-1 px-4"
                 >
                    <svg
                 xmlns="http://www.w3.org/2000/svg"
